@@ -1,0 +1,22 @@
+@import 'vars';
+
+nav {
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #eee;
+  position: absolute;
+  height: $navbar-height;
+  padding: 15px;
+
+  a {
+    color: #333;
+    text-decoration: none;
+    font-size: 150%;
+    margin: 10px;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
