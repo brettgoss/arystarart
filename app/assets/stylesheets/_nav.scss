@@ -1,6 +1,6 @@
 @import 'vars';
 
-nav#sidenav {
+nav {
   top: 0;
   bottom: 0;
   left: 0;
@@ -19,6 +19,13 @@ nav#sidenav {
     &:hover {
       color: $secondary-color;
       text-shadow: 2px 2px 5px #ccc;
+    }
+  }
+
+  #URLS {
+    a {
+      display: block;
+      margin: 0 10px;
     }
   }
 
@@ -45,6 +52,18 @@ nav#sidenav {
       background: #333;
       border: 1px solid #333;
       box-shadow: 2px 3px 5px #333;
+    }
+  }
+
+  #copyright {
+    right: 0;
+    bottom: 25px;
+    position: absolute;
+    padding: 10px 15px;
+
+    .copy {
+      color: #0fa1ce80;
+      text-shadow: 2px 1px 5px #a4a4a4;
     }
   }
 }

@@ -1,20 +1,25 @@
 <nav id="sidenav">
   <div class="row">
-    <div id="brand">
+    <div id="brand" class="twelve columns">
       <%= link_to root_path, id: "logo" do %>
         <%= image_tag "arystar-logo.png" %>
         <h4>Arystar Art <span>by Casey Snow<span></h4>
       <% end %>
     </div>
   </div>
+
   <div class="row">
-    <div class="six columns">
-      <span id="URLS">
-        <%= link_to 'Home', '/' %>
-        <%= link_to 'Webcomics', comics_url %>
-        <%= link_to 'Art', art_url %>
-        <%= link_to 'Animations', animations_url %>
-      </span>
+    <div id="URLS" class="six columns">
+      <%= link_to 'Home', '/' %>
+      <%= link_to 'Webcomics', comics_url %>
+      <%= link_to 'Art', art_url %>
+      <%= link_to 'Animations', animations_url %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="copyright" class="twelve columns">
+      <span class="copy">&copy; 2018 | All rights reserved</span>
     </div>
   </div>
 
