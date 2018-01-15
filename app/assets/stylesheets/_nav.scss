@@ -1,6 +1,6 @@
 @import 'vars';
 
-nav#sidenav {
+nav {
   top: 0;
   bottom: 0;
   left: 0;
@@ -57,11 +57,11 @@ nav#sidenav {
 
   #copyright {
     right: 0;
-    bottom: 20px;
+    bottom: 25px;
     position: absolute;
     padding: 10px 15px;
 
-    #copy {
+    .copy {
       color: #0fa1ce80;
       text-shadow: 2px 1px 5px #a4a4a4;
     }
