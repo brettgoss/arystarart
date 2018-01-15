@@ -24,6 +24,8 @@ gem 'normalize-rails'
 gem 'skeleton-rails'
 #Use Font Awesome for icons
 gem "font-awesome-rails"
+# Contentful CMS
+gem 'contentful'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -45,6 +47,8 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  # Dotenv
+  gem 'dotenv-rails'
 end
 
 group :development do
