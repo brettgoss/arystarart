@@ -1,12 +1,13 @@
 @import 'vars';
 
-nav {
+nav#sidenav {
   top: 0;
-  right: 0;
+  bottom: 0;
   left: 0;
   background: #eee;
-  position: absolute;
-  height: $navbar-height;
+  position: fixed;
+  height: $sidenav-height;
+  width: $sidenav-width;
   padding: 15px;
 
   a {
