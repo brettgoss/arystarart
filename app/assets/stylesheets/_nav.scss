@@ -20,4 +20,19 @@ nav#sidenav {
       color: $secondary-color;
     }
   }
+
+  #logo {
+    display: block;
+    span {
+      margin: 15px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    img {
+      max-width: 40px;
+      padding: 10px;
+      border: 1px solid #333;
+    }
+  }
 }

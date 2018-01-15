@@ -1,9 +1,11 @@
 <nav id="sidenav">
-  <span class="row">
+  <div class="row">
+    <div id="brand">
+      <%= link_to root_path, id: "logo" do %><%= image_tag "arystar-logo.png" %><span>Arystar Art</span><% end %>
+    </div>
+  </div>
+  <div class="row">
     <div class="six columns">
-      <!-- <div id="brand">
-        <a href="/"><img id="logo" src="/arystar-logo.png">Arystar Art</a>
-      </div> -->
       <span id="URLS">
         <%= link_to 'Home', '/' %>
         <%= link_to 'Webcomics', comics_url %>
@@ -11,8 +13,6 @@
         <%= link_to 'Animations', animations_url %>
       </span>
     </div>
-    <div class="six columns">
-    </div>
-  </span>
+  </div>
 
 </nav>
