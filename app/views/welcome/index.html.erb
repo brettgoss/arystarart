@@ -1,4 +1,13 @@
 <main class="wrapper">
   <h2>Heya!</h2>
   <h4>Welcome to Arystar Art!</h4>
+  <% showcase = contentful.entries(content_type: ENV['CONTENTFUL_SHOWCASE_CT_ID'], include: 2) %>
+  <% showcase.each do |showcase| %>
+    <div class="contentful_showcase">
+      <h1><%= showcase.title %></h1>
+      <img width="500px" src="<%= showcase.photo.image_url %>" />
+      <p><%= showcase.image_caption %></p>
+      <p><%= showcase.image_credits %>></p>
+    </div>
+  <% end %>
 </main>
