@@ -21,8 +21,9 @@
 body {
   background: $primary-color;
   padding-top: 80px;
-  color: #fff;
+  color: $font-color;
   font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   height: 100%;
 
   .container {
@@ -33,4 +34,5 @@ body {
 
 h1,h2,h3,h4 {
   font-family: 'Metamorphous', cursive;
+  font-family: 'Oswald', sans-serif;
 }
